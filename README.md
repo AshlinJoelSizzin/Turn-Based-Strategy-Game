@@ -24,7 +24,7 @@ This web application is a Turn-Based Strategy Game designed to provide an engagi
 ### Actions for ever token selected
 ![image](https://github.com/user-attachments/assets/e0c5c49a-ff65-436d-be1f-fba429091332)
 
-###Interactive Gameplay:
+### Interactive Gameplay:
 ![image](https://github.com/user-attachments/assets/f5e5681f-a1e4-4a2b-afd1-fba5d56c7fb1)
 
 ### Declaring the winner
