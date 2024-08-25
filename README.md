@@ -1,8 +1,8 @@
 # GUIDE TO SET UP
-* Clone the repo in your local environment with the following command: git clone https://github.com/AshlinJoelSizzin/ashlin_joel_21bce2419.git
-* Open the cloned files in your local dev environment prefereably VS-Code and then cd to the main directory
-* Install all the node dependencies by running the command: npm i or npm install
-* Host the web app live in your local environment with the following command: node server.js
+* Clone the repo in your local environment with the following command: **git clone https://github.com/AshlinJoelSizzin/ashlin_joel_21bce2419.git**
+* Open the cloned files in your local dev environment prefereably VS-Code and then **cd to the main directory**
+* Install all the node dependencies by running the command: **npm i** or **npm install**
+* Host the web app live in your local environment with the following command: **node server.js**
 
 ## TURN - BASED STRATEGY GAME
 This web application is a Turn-Based Strategy Game designed to provide an engaging and interactive experience for players. The game features a grid-based board where players can move their characters strategically to outmaneuver their opponents. The objective is to eliminate all of the opponent’s tokens by strategically moving and positioning your own tokens on the board.
