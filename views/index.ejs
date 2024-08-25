@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Character encoding for the document -->
+    <meta charset="UTF-8">
+    <!-- Viewport settings for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the web page -->
+    <title>Turn-Based Strategy Game</title>
+    <!-- Link to external stylesheet for styling -->
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+    <!-- Main title of the game -->
+    <h1 class="title">TURN BASED STRATEGY GAME</h1>
+
+    <!-- Container for displaying the winner announcement, initially hidden -->
+    <div id="winner-announcement" style="display: none;"></div>
+
+    <div id="game">
+        <!-- Display for the current player's turn -->
+        <p class="turn">Current Turn: <span id="current-player">Player 1</span></p>
+
+        <!-- Container for the game board where the game will be rendered -->
+        <div id="game-board"></div>
+
+        <!-- Container for move buttons to control character movements -->
+        <div id="move-buttons">
+            <button class="move-btn" data-direction="L">Left</button>
+            <button class="move-btn" data-direction="R">Right</button>
+            <button class="move-btn" data-direction="F">Forward</button>
+            <button class="move-btn" data-direction="B">Backward</button>
+            <button class="move-btn" data-direction="FL">Forward-Left</button>
+            <button class="move-btn" data-direction="FR">Forward-Right</button>
+            <button class="move-btn" data-direction="BL">Backward-Left</button>
+            <button class="move-btn" data-direction="BR">Backward-Right</button>
+        </div>
+
+        <!-- Container for displaying lost tokens of both players -->
+        <div id="lost-tokens">
+            <p id="lost-player1-tokens">Player 1 Lost Tokens: </p>
+            <p id="lost-player2-tokens">Player 2 Lost Tokens: </p>
+        </div>
+    </div>
+
+    <!-- Link to the external JavaScript file that contains client-side logic -->
+    <script src="/js/client.js"></script>
+</body>
+
+<!-- Footer section with developer information -->
+<footer class="footer">
+    <h2 class="footer_text">Game Developed By Ashlin Joel Sizzin</h2>
+</footer>
+
+</html>
